@@ -16,15 +16,15 @@ app = Flask(__name__)
 # MQTT 組態設定
 
 MQTT_SERVER = "soldier.cloudmqtt.com"
-MQTT_USERNAME = "byxigwdy"
-MQTT_PASSWORD = "4X8YiIXxSGiK"
+MQTT_USERNAME = "xxx"
+MQTT_PASSWORD = "xxx"
 MQTT_PORT = 12571
 MQTT_ALIVE = 60
 MQTT_TOPIC = "Door/Lock"
 
 # *********************************************************************
-line_bot_api = LineBotApi('LLc+Ap7TmKlo/ZRhiXGdi83elssVe/SopnwlZTgSHsFYTeUqpjqB9Ylnwuv7rCc+DVX94ejqpJgjT1q7K5lMVu1lfIr6BobsVQwLRH3FchA/69neiO5KlW/JywGrgWcFIhSVGn6qJpPEBPzqieTNNAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('36b038a546d02772b277095805ce9d99')
+line_bot_api = LineBotApi('xxx')
+handler = WebhookHandler('xxx')
 
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code " + str(rc))
