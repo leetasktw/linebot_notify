@@ -7,7 +7,7 @@ Click==7.0
 colorama==0.4.1
 dj-database-url==0.5.0
 dj-static==0.0.6
-Django==2.2.5
+Django==2.2.8
 ecdsa==0.14.1
 esptool==2.6
 Flask==1.1.1
